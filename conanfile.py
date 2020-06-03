@@ -3,7 +3,7 @@ import os
 
 class VulkanHeadersConan(ConanFile):
     name = "vulkan-headers"
-    version = "1.2.135"
+    version = "1.1.130"
     url = "https://github.com/KhronosGroup/Vulkan-Headers"
     description = "Vulkan Header files and API registry"
     
