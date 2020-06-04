@@ -13,10 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ github.event.head_commit.message }}
-        run: echo "$GITHUB_CONTEXT"
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v1
