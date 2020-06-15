@@ -10,6 +10,7 @@ class VulkanHeadersConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     
     
+    
     no_copy_source = True
     
     def source(self):
