@@ -8,9 +8,7 @@ class VulkanHeadersConan(ConanFile):
     description = "Vulkan Header files and API registry"
     
     settings = "os", "compiler", "build_type", "arch"
-    
-    
-    
+   
     no_copy_source = True
     
     def source(self):
